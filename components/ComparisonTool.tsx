@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Cell } from 'recharts';
 
 export const ComparisonTool: React.FC = () => {
-  const [creditAmount, setCreditAmount] = useState(500000);
+  const [creditAmount, setCreditAmount] = useState(200000);
   const [type, setType] = useState<'imobiliario' | 'veicular'>('imobiliario');
 
   const data = useMemo(() => {
@@ -78,7 +78,8 @@ export const ComparisonTool: React.FC = () => {
                 <XAxis dataKey="name" stroke="#fff" fontSize={12} />
                 <YAxis stroke="#fff" tickFormatter={(value) => `R$ ${value / 1000}k`} fontSize={12} />
                 <Tooltip 
-                  contentStyle={{ backgroundColor: '#171717', border: '1px solid #333' }}
+                  contentStyle={{ backgroundColor: '#171717', border: '1px solid #333', color: '#fff' }}
+                  labelStyle={{ color: '#fff' }}
                   formatter={(value: number) => [`R$ ${value.toLocaleString('pt-BR')}`, 'Custo Final']}
                 />
                 <Bar dataKey="totalCost" name="Custo Final">
@@ -100,11 +101,11 @@ export const ComparisonTool: React.FC = () => {
             </div>
             <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
               <h4 className="text-white font-bold mb-2">Veicular</h4>
-              <p className="text-neutral-300">Consórcio: <span className="text-[#E30613] font-bold">1,6% a.a.</span> | Financiamento: <span className="text-neutral-500 line-through">22% a.a.</span></p>
+              <p className="text-neutral-300">Consórcio: <span className="text-[#E30613] font-bold">1,2% a.a.</span> | Financiamento: <span className="text-neutral-500 line-through">22% a.a.</span></p>
             </div>
           </div>
-          <p className="text-2xl text-white font-bold text-center leading-tight">
-            📈 Quanto maior o patrimônio, maior a diferença. Em uma carta de R$ 1 milhão, a economia pode ultrapassar <span className="text-[#E30613]">R$ 2 milhões</span> quando comparada a um financiamento tradicional.
+          <p className="text-lg text-white font-bold text-center leading-tight">
+            📈 Com um crédito de 100 mil, o financiamento pode custar mais do que 337 mil ao final, enquanto no consórcio, com uma taxa de 1,2% ao ano, o custo final é cerca de 124 mil. Ou seja, com o consórcio, você paga muito menos e realiza seu sonho de forma mais inteligente. Pense no futuro: o consórcio coloca o seu patrimônio no caminho mais econômico.
           </p>
           <div className="text-center">
             <a 

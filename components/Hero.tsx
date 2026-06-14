@@ -62,7 +62,7 @@ export const Hero: React.FC = () => {
           </div>
 
           {/* Right Content - Video Preview */}
-          <div className="flex-1 relative lg:max-w-md hidden lg:block">
+          <div className="flex-1 relative lg:max-w-md">
             <div className="relative z-10 glass-card p-2 rounded-[2.5rem] transform rotate-3 hover:rotate-0 transition-all duration-700 shadow-3xl border-white/20">
               <video 
                 src="https://res.cloudinary.com/ddfacd0wf/video/upload/v1781470654/WhatsApp_Video_2026-06-14_at_5.49.35_PM_qamble.mp4"

@@ -19,7 +19,7 @@ export const TeamSection: React.FC = () => {
             </div>
             <div className="flex-1 w-full">
               <img 
-                src="https://res.cloudinary.com/ddfacd0wf/image/upload/v1781470646/WhatsApp_Image_2026-06-14_at_5.53.17_PM_i7xpcr.jpg" 
+                src="https://res.cloudinary.com/ddfacd0wf/image/upload/v1781475757/WhatsApp_Image_2026-06-14_at_5.53.17_PM_idcxer.jpg" 
                 alt="Equipe Samaria"
                 className="rounded-3xl shadow-2xl hover:scale-[1.02] transition-transform duration-500"
               />

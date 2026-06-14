@@ -60,10 +60,6 @@ export const FAQ: React.FC = () => {
     {
       question: "O que é necessário para entrar na Equipe Samaria?",
       answer: "Buscamos pessoas com perfil empreendedor, alto nível de resiliência e foco em resultados. Oferecemos o treinamento completo da 'Unidade Referência' Loja 200 para formar consultores de alta performance."
-    },
-    {
-      question: "Os ganhos de R$ 10.000 são garantidos?",
-      answer: "Os ganhos dependem exclusivamente da performance e vendas (comissionamento). No entanto, nosso método na Equipe Samaria é validado e estruturado especificamente para que consultores profissionais atinjam e superem essa marca consistentemente."
     }
   ];
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Target, TrendingUp, Sparkles, MessageCircle } from 'lucide-react';
+import { Award, Target, TrendingUp, Sparkles, MessageCircle, MapPin } from 'lucide-react';
 
 export const Authority: React.FC = () => {
   return (
@@ -73,6 +73,10 @@ export const Authority: React.FC = () => {
                       loading="lazy" 
                     ></iframe>
                   </div>
+                </div>
+                <div className="mt-4 flex items-center gap-3 text-neutral-300">
+                    <MapPin size={20} className="text-[#E30613]" />
+                    <p>Av. Vicente Machado, 1412 - Batel, Curitiba - PR</p>
                 </div>
             </div>
         </div>
