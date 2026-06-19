@@ -93,6 +93,51 @@ export const ComparisonTool: React.FC = () => {
         </div>
 
         <div className="space-y-8 mt-12 bg-neutral-800 p-8 rounded-3xl border border-white/5">
+          <h3 className="text-3xl font-extrabold text-white mb-6">Detalhamento Comparativo (R$ 500.000)</h3>
+          <div className="overflow-x-auto text-white">
+              <table className="w-full text-left">
+                  <thead>
+                      <tr className="border-b border-white/10">
+                          <th className="p-4">Característica</th>
+                          <th className="p-4">Consórcio (C)</th>
+                          <th className="p-4">Financiamento (F)</th>
+                      </tr>
+                  </thead>
+                  <tbody className="text-sm">
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Valor Total</td>
+                        <td className="p-4">R$ 500.000,00</td>
+                        <td className="p-4">R$ 500.000,00</td>
+                      </tr>
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Prazo Total</td>
+                        <td className="p-4">240 meses (20 anos)</td>
+                        <td className="p-4">420 meses (35 anos)</td>
+                      </tr>
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Entrada</td>
+                        <td className="p-4">Sem entrada</td>
+                        <td className="p-4">R$ 125.000,00</td>
+                      </tr>
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Taxa (Tx)</td>
+                        <td className="p-4">1,3% a.a.</td>
+                        <td className="p-4">10% + TR</td>
+                      </tr>
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Saldo Devedor Total</td>
+                        <td className="p-4">R$ 620.000,00</td>
+                        <td className="p-4">R$ 1.227.523,00</td>
+                      </tr>
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Renda Exigida</td>
+                        <td className="p-4">R$ 7.500,00</td>
+                        <td className="p-4">R$ 20.000,00</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          
           <h3 className="text-3xl font-extrabold text-white">Por que o Consórcio vence?</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
