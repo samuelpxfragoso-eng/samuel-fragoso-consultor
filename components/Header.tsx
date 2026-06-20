@@ -46,7 +46,7 @@ export const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
             </a>
           ))}
           <a 
-            href="https://wa.link/70toxx" 
+            href="https://wa.me/5541998009320?text=Quero%20uma%20simulação" 
             className="bg-[#E30613] text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-[#c40510] transition-all transform hover:scale-105 active:scale-95 shadow-lg shadow-[#E30613]/20"
           >
             Falar com Samuel
@@ -76,7 +76,7 @@ export const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
             </a>
           ))}
           <a 
-            href="https://wa.link/70toxx" 
+            href="https://wa.me/5541998009320?text=Quero%20uma%20simulação" 
             className="w-full text-center bg-[#E30613] text-white py-4 rounded-xl font-bold"
           >
             Falar com Samuel

@@ -232,7 +232,7 @@ export const ComparisonTool: React.FC = () => {
           </p>
           <div className="text-center">
             <a 
-              href="https://wa.link/70toxx"
+              href="https://wa.me/5541998009320?text=Quero%20uma%20simulação"
               target="_blank"
               className="inline-flex items-center gap-3 bg-[#E30613] text-white px-8 py-4 rounded-2xl font-black text-lg hover:bg-[#c40510] transition-all transform hover:-translate-y-1 shadow-xl shadow-red-600/40 uppercase tracking-widest"
             >

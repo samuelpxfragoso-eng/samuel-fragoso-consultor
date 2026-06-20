@@ -93,7 +93,7 @@ export const FAQ: React.FC = () => {
 
         <div className="mt-12 text-center">
           <p className="text-neutral-500 text-sm">
-            Ainda tem dúvidas? <a href="https://wa.link/70toxx" className="text-[#E30613] font-bold hover:underline transition-all">Fale diretamente com Samuel Fragoso</a>
+            Ainda tem dúvidas? <a href="https://wa.me/5541998009320?text=Quero%20uma%20simulação" className="text-[#E30613] font-bold hover:underline transition-all">Fale diretamente com Samuel Fragoso</a>
           </p>
         </div>
       </div>

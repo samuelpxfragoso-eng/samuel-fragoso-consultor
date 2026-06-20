@@ -53,7 +53,7 @@ export const Hero: React.FC = () => {
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-5">
               <a 
-                href="https://wa.link/70toxx" 
+                href="https://wa.me/5541998009320?text=Quero%20uma%20simulação" 
                 className="w-full sm:w-auto px-12 py-5 bg-[#E30613] text-white rounded-2xl font-black text-lg hover:bg-[#c40510] transition-all transform hover:-translate-y-1 shadow-2xl shadow-red-600/40 uppercase tracking-widest"
               >
                 Simular no WhatsApp

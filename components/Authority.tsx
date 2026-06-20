@@ -56,7 +56,7 @@ export const Authority: React.FC = () => {
                 <span className="text-[#E30613] text-xs font-black uppercase tracking-widest mb-4 block">LOJA 200 - ADEMICON</span>
                 <h2 className="text-3xl font-extrabold text-white mb-6">Sua referência em Curitiba.</h2>
                 <p className="text-neutral-300 text-lg mb-8">Conheça nossa estrutura completa na Loja 200. Atendimento de elite para quem busca os melhores resultados.</p>
-                <a href="https://wa.link/70toxx" target="_blank" className="inline-flex items-center gap-3 bg-[#E30613] text-white px-8 py-4 rounded-2xl font-black text-lg hover:bg-[#c40510] transition-all transform hover:-translate-y-1 shadow-xl shadow-red-600/40 uppercase tracking-widest">
+                <a href="https://wa.me/5541998009320?text=Quero%20uma%20simulação" target="_blank" className="inline-flex items-center gap-3 bg-[#E30613] text-white px-8 py-4 rounded-2xl font-black text-lg hover:bg-[#c40510] transition-all transform hover:-translate-y-1 shadow-xl shadow-red-600/40 uppercase tracking-widest">
                     <MessageCircle size={24} /> Simular na Loja 200
                 </a>
             </div>

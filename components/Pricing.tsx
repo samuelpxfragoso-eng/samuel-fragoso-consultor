@@ -109,7 +109,7 @@ export const Pricing: React.FC = () => {
               </div>
 
               <a 
-                href="https://wa.link/70toxx"
+                href="https://wa.me/5541998009320?text=Quero%20uma%20simulação"
                 target="_blank"
                 className={`flex items-center justify-center gap-2 w-full py-4 rounded-xl font-bold transition-all ${plan.popular ? 'bg-white text-black hover:bg-neutral-200' : 'bg-white/5 text-white hover:bg-white/10'}`}
               >
