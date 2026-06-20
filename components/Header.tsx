@@ -17,14 +17,20 @@ export const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
 
   return (
     <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-[#171717]/90 backdrop-blur-md py-4 shadow-xl border-b border-white/5' : 'bg-transparent py-6'
+      className={`fixed top-8 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-[#171717]/90 backdrop-blur-md shadow-xl border-b border-white/5 top-0' : 'bg-transparent top-8'
       }`}
     >
-      <div className="container mx-auto px-6 flex justify-between items-center">
-        <div className="flex items-center gap-2">
+      <div className="container mx-auto px-6 flex justify-between items-center py-4">
+        <div className="flex items-center gap-3">
+          <img 
+            src="https://res.cloudinary.com/ddfacd0wf/image/upload/v1781915808/WhatsApp_Image_2026-06-19_at_9.35.09_PM_ejhudx.jpg" 
+            alt="Logo" 
+            className="w-12 h-12 rounded-xl object-cover shadow-[0_0_15px_rgba(227,6,19,0.6)]"
+          />
           <span className="text-xl font-extrabold tracking-tighter text-white">
-            SAMUEL<span className="text-[#E30613]">FRAGOSO</span><span className="text-neutral-500 text-sm ml-1 font-medium">DR.CONSÓRCIO</span>
+            SAMUEL<span className="text-[#E30613]">FRAGOSO</span>
+            <span className="text-yellow-400 text-[10px] ml-1 font-bold block">DR. CONSÓRCIO OFICIAL</span>
           </span>
         </div>
 

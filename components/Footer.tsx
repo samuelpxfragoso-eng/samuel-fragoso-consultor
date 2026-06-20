@@ -8,9 +8,16 @@ export const Footer: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-2">
-            <span className="text-2xl font-extrabold tracking-tighter text-white mb-6 block">
-              SAMUEL<span className="text-[#E30613]">FRAGOSO</span><span className="text-neutral-500 text-sm ml-1 font-medium">DR.CONSÓRCIO</span>
-            </span>
+            <div className="flex items-center gap-4 mb-6">
+              <img 
+                src="https://res.cloudinary.com/ddfacd0wf/image/upload/v1781915808/WhatsApp_Image_2026-06-19_at_9.35.09_PM_ejhudx.jpg" 
+                alt="Logo" 
+                className="w-16 h-16 rounded-xl object-cover shadow-[0_0_15px_rgba(227,6,19,0.6)]"
+              />
+              <span className="text-2xl font-extrabold tracking-tighter text-white block">
+                SAMUEL<span className="text-[#E30613]">FRAGOSO</span><span className="text-neutral-500 text-sm ml-1 font-medium">DR.CONSÓRCIO</span>
+              </span>
+            </div>
             <p className="text-neutral-500 max-w-sm mb-8 leading-relaxed">
               Consultoria estratégica de elite para investidores que buscam segurança, rentabilidade e alavancagem através do consórcio imobiliário.
             </p>

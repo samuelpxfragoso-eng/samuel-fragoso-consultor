@@ -78,7 +78,7 @@ export const ComparisonTool: React.FC = () => {
                 <XAxis dataKey="name" stroke="#fff" fontSize={12} />
                 <YAxis stroke="#fff" tickFormatter={(value) => `R$ ${value / 1000}k`} fontSize={12} />
                 <Tooltip 
-                  contentStyle={{ backgroundColor: '#171717', border: '1px solid #333', color: '#fff' }}
+                  contentStyle={{ backgroundColor: '#171717', border: '1px solid #333', color: '#22c55e' }}
                   labelStyle={{ color: '#fff' }}
                   formatter={(value: number) => [`R$ ${value.toLocaleString('pt-BR')}`, 'Custo Final']}
                 />
@@ -92,8 +92,8 @@ export const ComparisonTool: React.FC = () => {
           </div>
         </div>
 
-        <div className="space-y-8 mt-12 bg-neutral-800 p-8 rounded-3xl border border-white/5">
-          <h3 className="text-3xl font-extrabold text-white mb-6">Detalhamento Comparativo (R$ 500.000)</h3>
+           <div className="space-y-8 mt-12 bg-neutral-800 p-8 rounded-3xl border border-white/5">
+          <h3 className="text-3xl font-extrabold text-white mb-6">Detalhamento Comparativo (Imobiliário - R$ 500.000)</h3>
           <div className="overflow-x-auto text-white">
               <table className="w-full text-left">
                   <thead>
@@ -138,15 +138,93 @@ export const ComparisonTool: React.FC = () => {
               </table>
           </div>
           
+          <h3 className="text-3xl font-extrabold text-white mb-6 mt-10">Mundo dos Imóveis</h3>
+          <div className="grid md:grid-cols-2 gap-6 text-neutral-300">
+            <ul className="list-disc pl-5 space-y-2">
+                <li>Aquisição na planta</li>
+                <li>Imóveis prontos (novo/usado)</li>
+                <li>Construção (diversos modelos)</li>
+                <li>Melhorias / Reforma</li>
+                <li>Compra de terrenos</li>
+            </ul>
+            <ul className="list-disc pl-5 space-y-2">
+                <li>Quitação de financiamento</li>
+                <li>Compra internacional</li>
+                <li>Compra em leilão</li>
+                <li>Imóvel rural produtivo</li>
+                <li>Investimento/Aposentadoria imobiliária</li>
+            </ul>
+          </div>
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10 mt-6">
+            <h4 className="text-yellow-400 font-bold mb-2">💡 Dica Master: Imóveis Residenciais</h4>
+            <p className="text-neutral-200"><span className="font-bold">A.I = Residencial:</span> Estratégia de focar em imóvel pequeno para maior giro e lucro.</p>
+          </div>
+
+          <h3 className="text-3xl font-extrabold text-white mb-6 mt-10">Imóvel Comercial</h3>
+          <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
+            <p className="text-neutral-300">
+                O consórcio também é uma excelente alavanca para o setor comercial. 
+                Seja para adquirir lojas, salas comerciais ou depósitos, o consórcio 
+                permite planejar a expansão do seu patrimônio com taxas muito inferiores 
+                a qualquer linha de crédito empresarial tradicional, garantindo maior 
+                rentabilidade para o seu negócio.
+            </p>
+          </div>
+
+          <h3 className="text-3xl font-extrabold text-white mb-6 mt-10">Detalhamento Comparativo (Veicular - R$ 100.000)</h3>
+          <div className="overflow-x-auto text-white">
+              <table className="w-full text-left">
+                  <thead>
+                      <tr className="border-b border-white/10">
+                          <th className="p-4">Característica</th>
+                          <th className="p-4">Consórcio (C)</th>
+                          <th className="p-4">Financiamento (F)</th>
+                      </tr>
+                  </thead>
+                  <tbody className="text-sm">
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Valor do Crédito</td>
+                        <td className="p-4">R$ 100.000,00</td>
+                        <td className="p-4">R$ 100.000,00</td>
+                      </tr>
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Prazo</td>
+                        <td className="p-4">80 meses</td>
+                        <td className="p-4">48 meses</td>
+                      </tr>
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Entrada / Lance</td>
+                        <td className="p-4">39% (R$ 39.000)</td>
+                        <td className="p-4">R$ 39.214,00</td>
+                      </tr>
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Taxas</td>
+                        <td className="p-4">21,2% Total Período</td>
+                        <td className="p-4">32% a 86% c.a.</td>
+                      </tr>
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Saldo Devedor Total</td>
+                        <td className="p-4">R$ 68.560,00 (pós-lance)</td>
+                        <td className="p-4">R$ 111.561,12</td>
+                      </tr>
+                      <tr className="border-b border-white/5">
+                        <td className="p-4 font-bold">Renda Exigida</td>
+                        <td className="p-4">R$ 3.000,00</td>
+                        <td className="p-4">R$ 7.500,00</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          
           <h3 className="text-3xl font-extrabold text-white">Por que o Consórcio vence?</h3>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
               <h4 className="text-white font-bold mb-2">Imobiliário</h4>
-              <p className="text-neutral-300">Consórcio: <span className="text-[#E30613] font-bold">1,2% a.a.</span> | Financiamento: <span className="text-neutral-500 line-through">8% a.a.</span></p>
+              <p className="text-neutral-300">Consórcio: <span className="text-[#E30613] font-bold">1,3% a.a.</span> | Financiamento: <span className="text-neutral-500 line-through">8% a.a.</span></p>
             </div>
             <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
               <h4 className="text-white font-bold mb-2">Veicular</h4>
-              <p className="text-neutral-300">Consórcio: <span className="text-[#E30613] font-bold">1,2% a.a.</span> | Financiamento: <span className="text-neutral-500 line-through">22% a.a.</span></p>
+              <p className="text-neutral-300">Consórcio: <span className="text-[#E30613] font-bold">1,6% a.a.</span> | Financiamento: <span className="text-neutral-500 line-through">22% a.a.</span></p>
             </div>
           </div>
           <p className="text-lg text-white font-bold text-center leading-tight">
