@@ -30,7 +30,7 @@ export const AdemiconInfo: React.FC = () => {
                         </div>
                         <div className="mt-10">
                             <a 
-                                href="https://wa.me/5541998009320?text=Olá,%20quero%20uma%20simulação%20de%20crédito" 
+                                href="https://wa.me/5541998009320?text=Quero%20uma%20simulação" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center gap-3 bg-[#E30613] text-white px-8 py-4 rounded-2xl font-black text-lg hover:bg-[#c40510] transition-all transform hover:-translate-y-1 shadow-xl shadow-red-600/40 uppercase tracking-widest"

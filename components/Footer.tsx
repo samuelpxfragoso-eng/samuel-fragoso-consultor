@@ -22,11 +22,15 @@ export const Footer: React.FC = () => {
               Consultoria estratégica de elite para investidores que buscam segurança, rentabilidade e alavancagem através do consórcio imobiliário.
             </p>
             <div className="flex gap-4">
-              {[Instagram, Linkedin, Facebook].map((Icon, idx) => (
-                <a key={idx} href="#" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-neutral-400 hover:text-[#E30613] hover:border-[#E30613]/50 transition-all">
-                  <Icon size={20} />
-                </a>
-              ))}
+              <a href="https://www.instagram.com/drconsorcio.oficial" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-neutral-400 hover:text-[#E30613] hover:border-[#E30613]/50 transition-all">
+                <Instagram size={20} />
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-neutral-400 hover:text-[#E30613] hover:border-[#E30613]/50 transition-all">
+                <Linkedin size={20} />
+              </a>
+              <a href="#" className="w-10 h-10 rounded-full glass-card flex items-center justify-center text-neutral-400 hover:text-[#E30613] hover:border-[#E30613]/50 transition-all">
+                <Facebook size={20} />
+              </a>
             </div>
           </div>
 
@@ -48,7 +52,7 @@ export const Footer: React.FC = () => {
                 <span>Av. Vicente Machado, 1412<br />Curitiba - PR</span>
               </li>
               <li>samuel.px.fragoso@gmail.com</li>
-              <li>(41) 99999-9999</li>
+              <li>(41) 99800-9320</li>
             </ul>
           </div>
         </div>

@@ -7,7 +7,7 @@ import { TeamSection } from './components/TeamSection.tsx';
 import { ClientSection } from './components/ClientSection.tsx';
 import { Authority } from './components/Authority.tsx';
 import { AdemiconInfo } from './components/AdemiconInfo.tsx';
-import { Testimonials } from './components/Testimonials.tsx';
+import { InstagramSection } from './components/InstagramSection.tsx';
 import { FAQ } from './components/FAQ.tsx';
 import { Footer } from './components/Footer.tsx';
 import { WhatsAppButton } from './components/WhatsAppButton.tsx';
@@ -53,7 +53,7 @@ const App: React.FC = () => {
           <ComparisonTool />
           <Authority />
           <AdemiconInfo />
-          <Testimonials />
+          <InstagramSection />
           <FAQ />
         </main>
         <Footer />
