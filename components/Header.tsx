@@ -23,11 +23,6 @@ export const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
     >
       <div className="container mx-auto px-6 flex justify-between items-center py-4">
         <div className="flex items-center gap-3">
-          <img 
-            src="https://res.cloudinary.com/ddfacd0wf/image/upload/v1781915808/WhatsApp_Image_2026-06-19_at_9.35.09_PM_ejhudx.jpg" 
-            alt="Logo" 
-            className="w-12 h-12 rounded-xl object-cover shadow-[0_0_15px_rgba(227,6,19,0.6)]"
-          />
           <span className="text-xl font-extrabold tracking-tighter text-white">
             SAMUEL<span className="text-[#E30613]">FRAGOSO</span>
             <span className="text-yellow-400 text-[10px] ml-1 font-bold block">DR. CONSÓRCIO OFICIAL</span>
