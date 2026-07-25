@@ -8,6 +8,7 @@ import { ClientSection } from './components/ClientSection.tsx';
 import { Authority } from './components/Authority.tsx';
 import { AdemiconInfo } from './components/AdemiconInfo.tsx';
 import { InstagramSection } from './components/InstagramSection.tsx';
+import { FinancialPlan } from './components/FinancialPlan.tsx';
 import { Simulator } from './components/Simulator.tsx';
 import { FAQ } from './components/FAQ.tsx';
 import { Footer } from './components/Footer.tsx';
@@ -56,6 +57,7 @@ const App: React.FC = () => {
           <Authority />
           <AdemiconInfo />
           <InstagramSection />
+          <FinancialPlan />
           <FAQ />
         </main>
         <Footer />
