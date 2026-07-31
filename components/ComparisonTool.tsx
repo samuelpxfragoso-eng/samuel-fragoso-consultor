@@ -91,6 +91,7 @@ export const ComparisonTool: React.FC = () => {
             </ResponsiveContainer>
           </div>
         </div>
+        
       </div>
     </section>
   );

@@ -77,7 +77,7 @@ export const Simulator: React.FC = () => {
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="bg-neutral-900 rounded-3xl p-8 border border-white/10 shadow-2xl">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-extrabold text-white mb-2">🎮 Game da Economia: Consórcio vs Financiamento</h2>
+            <h2 className="text-3xl font-extrabold text-white mb-2">Game da Economia: Consórcio vs Financiamento</h2>
             <p className="text-neutral-400">Escolha a modalidade abaixo e compare os custos reais antes de tomar sua decisão.</p>
           </div>
 

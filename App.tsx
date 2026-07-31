@@ -10,6 +10,7 @@ import { AdemiconInfo } from './components/AdemiconInfo.tsx';
 import { InstagramSection } from './components/InstagramSection.tsx';
 import { FinancialPlan } from './components/FinancialPlan.tsx';
 import { Simulator } from './components/Simulator.tsx';
+import { CommissionProgram } from './components/CommissionProgram.tsx';
 import { FAQ } from './components/FAQ.tsx';
 import { Footer } from './components/Footer.tsx';
 import { WhatsAppButton } from './components/WhatsAppButton.tsx';
@@ -54,6 +55,7 @@ const App: React.FC = () => {
           <ClientSection />
           <ComparisonTool />
           <Simulator />
+          <CommissionProgram />
           <Authority />
           <AdemiconInfo />
           <InstagramSection />
